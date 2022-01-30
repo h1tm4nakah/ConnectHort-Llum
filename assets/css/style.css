@@ -4,6 +4,16 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Roboto', sans-serif;
 }
 
+a {
+	text-decoration: none;
+	color: #50ED2B;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #29a70b;
+}
+
 p {
 	font-size: 24px;
 }
