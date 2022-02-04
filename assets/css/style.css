@@ -51,3 +51,63 @@ p {
 	font-size: 50px;
 	font-weight: 100;	
 }
+
+@media only screen and (max-width: 600px) {
+	
+	.title {
+		font-size: 60px;
+	}
+
+	
+
+	.justify-content-end {
+		justify-content: space-around !important;
+		padding-top: 1rem;
+	}
+
+	.descripcion {
+		margin-top: 1rem !important;
+	}
+
+	.title-light {
+		font-size: 40px;
+	}
+
+	.sub-title {
+		font-size: 30px;
+	}
+
+	.dosmil{
+		font-size: 50px;
+		}
+
+	.texto {
+		font-size: 18px;
+	}
+
+	.blanco {
+		color: white;
+	}
+
+	.info-text {
+		font-size: 14px;
+	}
+
+	.colab .col-4 {
+		max-width: none;
+		flex: none;
+	}
+
+	.logos-final {
+		display: flex;
+		flex-direction: column;
+		margin-top: 0px !important;
+		
+	}
+
+	.logos-final a{
+		margin-bottom: 1rem;
+		
+	}
+
+  }
